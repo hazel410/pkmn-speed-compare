@@ -1,0 +1,5 @@
+how do i interface the selection boxes with the comparison boxes?
+
+1 - on selection change, run function to rerender comparison
+2 - add listeners on the comparison box to snatch updates to selection
+3 - on selection change, directly modify comparison element somehow

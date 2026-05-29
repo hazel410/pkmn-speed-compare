@@ -1,4 +1,4 @@
-const global_db = {
+const GLOBAL_DB = {
   'Bulbasaur': 45,
   'Ivysaur': 60,
   'Venusaur': 80,
@@ -934,7 +934,7 @@ const global_db = {
   'Wishiwashi School Form': 30,
   'Mareanie': 45,
   'Toxapex': 35,
-  'Muglobal_dbray': 45,
+  'MuGLOBAL_DBray': 45,
   'Mudsdale': 35,
   'Dewpider': 27,
   'Araquanid': 42,
@@ -1143,7 +1143,7 @@ const global_db = {
   'Charcadet': 35,
   'Armarouge': 75,
   'Ceruledge': 85,
-  'Taglobal_dbulb': 45,
+  'TaGLOBAL_DBulb': 45,
   'Bellibolt': 45,
   'Wattrel': 70,
   'Kilowattrel': 125,
