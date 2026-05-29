@@ -11,19 +11,50 @@
 </head>
 
 <body>
-  
   <div class="rootContainer">
-    <div class="box">
+    <!-- pokemon 1 -->
+    <div id="pkmn1 "class="box">
       <div class="settingsContainer">
-        <div class="sprite"></div>
-        <div class="nameSelect"></div>
-        <div class="levelSelect"></div>
-        <div class="statSelect"></div>
-        <div class="checkboxes">
-          <input type="button" value="freaky">
-        </div>
+        <!-- establishing divs -->
+        <div id="sprite1" class="sprite"><img src="./fallback-sprite.png"></div>
+        <div id="name1" class="nameSelect"></div>
+        <div id="stat1" class="statSelect"></div>
+        <div id="level1" class="levelSelect"></div>
+        <div id="check1" class="checkboxes"></div>
+        
+        <!-- load stuff -->
+        <script>
+          loadNameHtml("name1");
+          loadStatHtml("stat1");
+          loadLevelHtml("level1");
+          loadCheckHtml("check1");
+        </script>
       </div>
     </div>
+
+    <!-- compare -->
+
+    <!-- pokemon 2 -->
+    <div id="pkmn2" class="box">
+      <div class="settingsContainer">
+        <!-- establishing divs -->
+        <div id="sprite2" class="sprite"><img src="./fallback-sprite.png"></div>
+        <div id="name2" class="nameSelect"></div>
+        <div id="stat2" class="statSelect"></div>
+        <div id="level2" class="levelSelect"></div>
+        <div id="check2" class="checkboxes"></div>
+        
+        <!-- load stuff -->
+        <script>
+          loadNameHtml("name2");
+          loadStatHtml("stat2");
+          loadLevelHtml("level2");
+          loadCheckHtml("check2");
+        </script>
+    </div>
+  </div>
+
+
 </body>
 
 
